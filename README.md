@@ -1,1 +1,1 @@
-This is a repo made by Praphull for College codes practice. 
+This repository contains the solutions and practice codes from various classes, and exercises that I am learning during my time at college. It is a collection of code snippets and programs that cover various topics in computer science and programming.
