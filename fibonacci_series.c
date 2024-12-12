@@ -2,7 +2,7 @@
 int main(){
 
 //Code by Praphull
-//Fibonacci series - 1,1,2,3,5,8,13,21,34...
+//Fibonacci series - 0,1,1,2,3,5,8,13,21,34...
 
 int n;
 int first_number = 0;
