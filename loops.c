@@ -1,29 +1,50 @@
 #include<stdio.h>
-#include<math.h>
+
 int main(){
-int a = sqrt(25);
-printf("%d",a);
-
-/*
 
 
+//If else loop
+
+int a;
 printf("Enter A:\n");
 scanf("%d", &a);
 
  if(a<0){
-	printf("A is negative");
+	printf("\nA is negative\n");
 	}
 else if(a>0){
-	printf("A is positive");
+	printf("\nA is positive\n");
 }
 else{
-	printf("A is 0");
+	printf("\nA is 0\n");
 }
-*/
 
 
-for(int i = 0; i<10; i++){
+//For loop
+printf("PRINTING USING FOR LOOP\n");
+for(int i = 0; i<=10; i++){
 	printf("%d\n",i);
 }
+
+
+//While loop
+int b = 0;
+printf("PRINTING USING WHILE LOOP\n");
+
+while(b<=10){
+	printf("%d\n",b);
+	b++;
+}
+
+//do-while loop
+
+printf("PRINTING USING DO WHILE LOOP\n");
+
+int c = 0;
+do{
+printf("%d\n",c);
+c++;
+}while(c<=10);
+
 return 0;
 }
