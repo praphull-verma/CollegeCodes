@@ -21,15 +21,15 @@ scanf("%d", &c);
 
 //Logic
 
-if(a>b && a>c){
+if(a>=b && a>=c){
 	printf("%d is the greatest number",a);
 	}
 
-else if(b>a && b>c){
+else if(b>=a && b>=c){
 
 	printf("%d is the greatest number", b);
 	}
-else if(c>a && c>b){
+else if(c>=a && c>=b){
 	printf("%d is the greatest number", c);
 	}
 else{
