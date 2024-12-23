@@ -11,14 +11,17 @@ return a * b;
 }
 float div(float a, float b){
 return a/b;
+
 }
+
+
 int main(){
 
 int sum = add(2,6);
 printf("%d",sum);
 
-int substraction = sub(10,5);
-printf("\n%d", substraction);
+int subtraction = sub(10,5);
+printf("\n%d", subtraction);
 
 int multiplication = mul(10,5);
 printf("\n%d", multiplication);
